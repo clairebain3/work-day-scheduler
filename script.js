@@ -29,6 +29,8 @@ calendarEl.addEventListener("click", function (event) {
     if (element.matches(".future") || (element.matches(".past")) || (element.matches(".present"))) {
         // element.setAttribute("class", "textarea")
         console.log("ok")
+        // EVENT LISTENER: type a key
+        // Keydown event
         document.addEventListener("keydown", function (event) {
             console.log("keydown happened");
             var key = event.key;
@@ -41,6 +43,12 @@ calendarEl.addEventListener("click", function (event) {
     else( console.log("not ok"))
 });
 
+calendarEl.addEventListener("click", function(event){
+var element = event.target;
+if (element.matches(".saveBtn")){
 
-// EVENT LISTENER: type a key
-// Keydown event
+    console.log("saved")
+}
+
+})
+
