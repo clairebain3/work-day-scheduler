@@ -59,13 +59,17 @@ body {
 .present {
   background-color: #ff6961;
   color: white;
-  width: 800px;
+  width: 90%;
+  padding: 0%;
+  margin: 0%;
 }
 
 .future {
   background-color: #77dd77;
   color: white;
-  width: 800px;
+  width: 90%;
+  padding: 0%;
+  margin: 0%;
 }
 
 .saveBtn {
